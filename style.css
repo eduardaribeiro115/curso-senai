@@ -40,7 +40,25 @@ ul{
    
 }
 
-.caixa-img-logo{
-    height: 90px;
-    width: 90px;
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
 }
+
+  .card{
+    width: 300px;
+    height: 300px;
+    border-radius: 4px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 18px;
+    
+  }
+
+  .texto-card{
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
